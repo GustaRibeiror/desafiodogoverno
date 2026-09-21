@@ -1,0 +1,5 @@
+{
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\Users\\lucas.ribeiro\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts;${env:PATH}"
+  }
+}
