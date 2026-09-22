@@ -12,8 +12,22 @@ outputs/*.parquet
 outputs/*.txt
 !outputs/figures/
 
+# Artefatos treinados e previsões (metadados JSON podem ser versionados)
+artifacts/*.txt
+artifacts/*.pt
+artifacts/*.csv
+experiments/*.txt
+experiments/*.pt
+experiments/*.npz
+experiments/*.json
+baseline_169874/output/
+baseline_169874/scripts/results/
+
 # Python virtualenv
 .venv/
 
 # Graphify / temp tools output
 graphify-out/
+
+# Backup do README UTF-16 legado (conteúdo original preservado localmente)
+README.legacy.utf16

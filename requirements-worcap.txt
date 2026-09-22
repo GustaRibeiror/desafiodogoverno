@@ -1,0 +1,11 @@
+# Ambiente de referência: Python 3.11 (Kaggle Notebook, GPU)
+numpy==1.26.4
+pandas==2.2.3
+xarray==2024.11.0
+netCDF4==1.7.2
+h5netcdf==1.4.1
+lightgbm==4.5.0
+scikit-learn==1.5.2
+joblib==1.4.2
+threadpoolctl==3.5.0
+torch==2.5.1

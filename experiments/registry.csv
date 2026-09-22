@@ -1,0 +1,1 @@
+run_id,created_utc,code_sha256,config,spatial_sample,seed,fold,features,train_first,train_last,validation_first,validation_last,rmse_24,rmse_year1,rmse_year2,climatology_rmse_24,seconds,artifacts

@@ -1,0 +1,8 @@
+numpy
+pandas
+xarray
+lightgbm
+scikit-learn
+joblib
+threadpoolctl
+netCDF4
