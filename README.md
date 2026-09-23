@@ -10,6 +10,13 @@ verificação de sanidade; modelos são promovidos pelos backtests históricos d
 
 ## Estrutura principal
 
+**Melhor resultado público informado: 1,66882.** O script responsável pelo
+ajuste final é [scripts/prepare_final_scale_candidate.py](scripts/prepare_final_scale_candidate.py).
+Ele aplica uma única vez o fator 0,97 ao ensemble do projeto do Lucas
+(original: 1,69147). Não é o treino A+B do `worcap_pipeline.py`.
+Leia [o handoff da submissão 1,66882](docs/SUBMISSAO_166882.md) para reproduzir,
+localizar a fonte do ensemble e continuar os experimentos. CSVs não são versionados.
+
 - `scripts/worcap_pipeline.py`: LightGBM, folds causais, calibração, inferência,
   blend e auditoria da submissão.
 - `scripts/worcap_unet.py`: U-Net espacial experimental com early stopping.

@@ -16,6 +16,10 @@ outputs/*.txt
 artifacts/*.txt
 artifacts/*.pt
 artifacts/*.csv
+artifacts/**/*.csv
+artifacts/**/*.txt
+artifacts/**/*.pt
+.DS_Store
 experiments/*.txt
 experiments/*.pt
 experiments/*.npz
